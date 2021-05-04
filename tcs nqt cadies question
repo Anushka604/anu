@@ -1,0 +1,40 @@
+#include <stdio.h>
+/*
+
+candies
+
+*/
+int main()
+
+{
+	int n = 10;
+	int k = 5;
+	int num;
+
+
+
+printf("\n enter number of candies sold: ");
+scanf("%d" , &num);	
+
+
+   if(num>=1 && num<=5)
+   {
+   	
+   	printf("\n number of candies  sold : %d",num);
+   	
+   	printf("\n number of candies left %d",n-num);
+   	
+   }
+   
+   else 
+   {
+   	
+   	printf("\n invalid input");
+   	
+   	printf("\n no of candies left : %d",n);
+   }
+   
+  return 0; 
+   
+   
+}
